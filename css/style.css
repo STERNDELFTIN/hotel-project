@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; text-align: center; }
+a { text-decoration: none; color: black; }
+li { list-style: none; }
+
+/* .container 영역 */
+.container {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+/* header 영역 */
+header, .register, .login {
+    display: flex;
+    align-items: center;
+}
+header {
+    background-color: lightblue;
+    height: 60px;
+    /* justify-content: center; */
+    padding-left: 20px;
+    padding-right: 20px;;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+}
+.logo {
+    font-size: 30px;
+}
